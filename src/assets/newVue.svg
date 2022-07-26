@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="100">
-    <rect width="400" height="100" rx="5" ry="5" class="a" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="100">
+    <rect width="320" height="100" rx="5" ry="5" class="a" />
 <circle cx="20" cy="20" r="8.5" fill="#ff5f58" />
 <circle cx="47" cy="20" r="8.5" fill="#ffbd2e" />
 <circle cx="74" cy="20" r="8.5" fill="#18c132" />

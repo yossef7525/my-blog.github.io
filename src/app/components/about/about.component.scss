@@ -33,7 +33,7 @@
 #card-my{
   border-radius: 4px;
   display: block;
-  height: 50vh;
+  height: 200px;
   width: 200px;
 }
   .card-container .card:not(:last-child) {
@@ -100,7 +100,7 @@
 
   .terminal {
     display: inline-block;
-    max-width: 400px;
+    // max-width: 400px;
     box-sizing: border-box;
     margin: 10px;
    
@@ -190,12 +190,14 @@
     .card-container > *:not(.circle-link, .card) ,
     .terminal {
       width: 100%;
+      margin:0px;
     }
     #card-my{
       height: fit-content;
     }
-    .card:not(.highlight-card) {
+    .card:not(.highlight-card,#card-my) {
       height: 16px;
+      padding:30px;
       margin: 8px 0;
     }
 

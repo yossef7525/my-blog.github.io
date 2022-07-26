@@ -32,8 +32,8 @@
 #card-my {
   border-radius: 4px;
   display: block;
-  height: 200px;
-  width: 200px;
+  width: 80vw;
+  height: fit-content;
 }
 .card-container .card:not(:last-child) {
   margin-right: 0;

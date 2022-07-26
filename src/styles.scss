@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  font-family: "Assistant", sans-serif;
+  font-family: "Varela Round", sans-serif;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}

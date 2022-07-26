@@ -1,34 +1,37 @@
 .my_header {
-    height: 10vh;
-    min-height: 60px;
-    padding: 5px ;
-    box-shadow: 1px 1px 4px gray;
-    display: flex;
-   
-    color: #FAF9F9;
-    background-color: #42b883;
+  height: 10vh;
+  min-height: 60px;
+  // padding: 5px ;
+  box-shadow: 1px 1px 4px gray;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  color: #faf9f9;
+  background-color: #42b883;
 }
 
-img{
-    width: 50px;
-    margin: 10px 5px 0px 5px;
+img {
+  width: 50px;
+  margin: 10px 5px 0px 5px;
 }
-.copticon, .img{
-    flex-grow: 1;
-    line-height: 10vh;
+.copticon,
+.img,
+.alert {
+  flex-grow: 1;
+  line-height: 10vh;
 }
-.links{
-    @media screen and (max-width: 800px) {
-        display: none;
-    }
-    flex-grow: 3;
-    line-height: 10vh;
+.links {
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+  flex-grow: 3;
+  line-height: 10vh;
 }
 
-li{
-    margin: 0 10px;
-    cursor: pointer;
+li {
+  margin: 0 10px;
+  cursor: pointer;
 }
-li:hover{
-    font-weight: bold;
+li:hover {
+  font-weight: bold;
 }

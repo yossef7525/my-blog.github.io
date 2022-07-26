@@ -1,37 +1,49 @@
 .my_header {
-  height: 10vh;
-  min-height: 60px;
-  // padding: 5px ;
-  box-shadow: 1px 1px 4px gray;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  color: #faf9f9;
   background-color: #42b883;
+  box-shadow: 1px 1px 4px gray;
+  color: #faf9f9;
+  min-height: 60px;
+  position: fixed;
+  display: flex;
+  height: 10vh;
+  width: 100%;
 }
 
 img {
   width: 10vh;
-  
+}
+.copticon {
+  font-weight: bold;
 }
 .copticon,
 .img,
-.alert {
-  flex-grow: 1;
+.build {
   line-height: 10vh;
+  flex-grow: 1;
 }
 .links {
   @media screen and (max-width: 800px) {
     display: none;
   }
-  flex-grow: 3;
   line-height: 10vh;
+  flex-grow: 3;
 }
-
+.build {
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
 li {
   margin: 0 10px;
   cursor: pointer;
 }
 li:hover {
   font-weight: bold;
+}
+.amburger-menu {
+  display: none;
+  margin-left: 5px;
+  @media screen and (max-width: 800px) {
+    display: inline;
+  }
 }

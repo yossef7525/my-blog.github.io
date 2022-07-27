@@ -29,35 +29,35 @@
     </div>
   </div>
   <div class="card-container">
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(0, 'html')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/HTML.png" class="img-logo" alt="" />
       <span>HTML</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(1, 'css')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/CSS.png" class="img-logo" alt="" />
       <span>CSS</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(2, 'javascript')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/JS.png" class="img-logo" alt="" />
       <span>JavaScript</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(3, 'angular')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/Angular.png" class="img-logo" alt="" />
       <span>Angular</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(4, 'react')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/React.png" class="img-logo" alt="" />
       <span>React</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(5, 'vue')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/Vue.png" class="img-logo" alt="" />
       <span>Vue</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(6, 'node')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/Node.png" class="img-logo" alt="" />
       <span>Node.js</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" (click)="clickBox(7, 'express')" data-bs-toggle="modal" data-bs-target="#myModal">
       <img src="../../../assets/Express.png" class="img-logo" alt="" />
       <span>Express.js</span>
     </a>
@@ -76,21 +76,41 @@
 
   <h2>בשימוש יום יומי</h2>
   <div class="card-container">
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" href="https://npmjs.com/">
       <img src="../../../assets/npm.png" class="img-logo" alt="" />
       <span>NPM</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" href="https://stackoverflow.com/">
       <img src="../../../assets/StackOverflow.png" class="img-logo" alt="" />
       <span>Stake</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" href="https://google.com/">
       <img src="../../../assets/google.png" class="img-logo" alt="" />
       <span>Google</span>
     </a>
-    <a class="card" target="_blank" rel="noopener">
+    <a class="card" target="_blank" rel="noopener" href="https://github.com/">
       <img src="../../../assets/github.png" class="img-logo" alt="" />
       <span>github</span>
     </a>
+  </div>
+</div>
+
+
+<div class="modal" id="myModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+        <p style="text-align:justify">{{textForModel}}</p>
+        <p><a [href]="'https://wikipedia.org/wiki/' + language">קרא עוד..</a></p>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
   </div>
 </div>
